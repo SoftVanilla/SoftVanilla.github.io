@@ -4,3 +4,5 @@ main:
     url: https://softvanilla.github.io/
   - title: "Test 2"
     url: /about/
+  - title: "Categories"
+    url: /categories/
