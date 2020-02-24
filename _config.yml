@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Test"
+title                    : "SoftVanilla Note"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "SoftVanilla"
-description              : "Test"
+description              : "-"
 url                      : "https://softvanilla.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,13 +109,13 @@ analytics:
 author:
   name             : "SoftVanilla"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Test"
+  bio              : "Doing Nothing"
   location         : "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:softvanilla34@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
