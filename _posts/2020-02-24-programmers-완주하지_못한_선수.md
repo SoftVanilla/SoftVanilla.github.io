@@ -52,7 +52,7 @@ participant, completion 배열을 통해 정보를 확인할 수 있다.
 
 &nbsp;
 
-``fillipa`` 와 ``josipa`` 까지는 맞다.,  
+``filipa`` 와 ``josipa`` 까지는 맞다.,  
 하지만, 참가자의 3번째 항목은 ``marina`` 이나,  
 완주자의 3번째 항목은 ``nikola``다.  
 
