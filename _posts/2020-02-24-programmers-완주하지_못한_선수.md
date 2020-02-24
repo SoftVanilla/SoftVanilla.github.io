@@ -42,7 +42,8 @@ participant, completion 배열을 통해 정보를 확인할 수 있다.
 참가자와 완주자가 뭔가 딱 맞아 떨어지는 것 처럼 보인다.  
 맨 끝의 ``vinko``를 제외하면 말이다.
 
-만약 완주자가 ``mardina``가 아니라 ``vinko`` 였다면 어땠을까?
+만약 완주자가 ``mardina``가 아니라  
+``vinko`` 였다면 어땠을까?
 
 &nbsp;
 
@@ -106,7 +107,10 @@ string solution(vector<string> participant, vector<string> completion) {
 &nbsp;
 
 이 문제의 카테고리는 해시다. 해시를 써서 풀어보라고 한 만큼, 해시를 써서 풀어보자.  
-**C++**의 **unordered_map**, **Java**의 **HashMap**, **Python**의 **Dictionary**를 사용할 수 있다.  
+**C++**의 **unordered_map**,  
+**Java**의 **HashMap**,  
+**Python**의 **Dictionary**를 사용할 수 있다.  
+  
 HashMap의 Insert(), Find()의 시간복잡도는 **O(1)**이다.
 
 > 물론 항상 O(1)인 것은 아니다.  
