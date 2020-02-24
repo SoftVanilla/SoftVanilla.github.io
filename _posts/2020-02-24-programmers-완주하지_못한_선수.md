@@ -106,7 +106,9 @@ string solution(vector<string> participant, vector<string> completion) {
 
 &nbsp;
 
-이 문제의 카테고리는 해시다. 해시를 써서 풀어보라고 한 만큼, 해시를 써서 풀어보자.  
+이 문제의 카테고리는 해시다.  
+해시를 써서 풀어보라고 한 만큼, 해시를 써서 풀어보자.  
+  
 **C++**의 **unordered_map**,  
 **Java**의 **HashMap**,  
 **Python**의 **Dictionary**를 사용할 수 있다.  
