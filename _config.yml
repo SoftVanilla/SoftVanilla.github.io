@@ -110,8 +110,8 @@ author:
   name             : "SoftVanilla"
   avatar           : "/assets/images/quote.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Doing Nothing"
-  location         : "Somewhere"
-  email            : "softvanilla34@gmail.com"
+  location         : #
+  email            : #
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
