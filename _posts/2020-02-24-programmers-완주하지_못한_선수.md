@@ -77,6 +77,7 @@ participant, completion 배열을 통해 정보를 확인할 수 있다.
 3. 끝까지 순회해도 나오지 않았다면, **참가자 명단의 맨 끝의 이름을 리턴**한다.
 &nbsp;
 
+#### solution_sort.cpp
 ```cpp
 #include <string>
 #include <vector>
@@ -178,6 +179,8 @@ HashMap에 해당 이름을 가진 참가자 명단이
 &nbsp;
 그러면 이 내용을 코드로 작성해보자.
 &nbsp;
+
+#### solution_hash.cpp
 ```cpp
 #include <string>
 #include <vector>
