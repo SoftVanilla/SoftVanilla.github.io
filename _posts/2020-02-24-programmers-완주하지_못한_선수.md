@@ -25,7 +25,7 @@ participant, completion 배열을 통해 정보를 확인할 수 있다.
 
 	participant : ["marina", "josipa", "nikola", "vinko", "filipa"]
 	completion  : ["josipa", "filipa", "marina", "nikola"]
-	
+
 &nbsp;
 참가자와 완주자의 명단이 불규칙적으로 섞여있다. 이 문자열 배열들을 정렬하면 사전순으로 정렬한 형태가 된다. 보기 편하게 한 번 참가자 명단과 완주자 명단을 정렬해보자.
 &nbsp;
@@ -35,7 +35,8 @@ participant, completion 배열을 통해 정보를 확인할 수 있다.
 
 &nbsp;
 
-참가자와 완주자가 뭔가 딱 맞아 떨어지는 것 처럼 보인다. 맨 끝의 ``vinko``를 제외하면 말이다.
+참가자와 완주자가 뭔가 딱 맞아 떨어지는 것 처럼 보인다.  
+맨 끝의 ``vinko``를 제외하면 말이다.
 
 만약 완주자가 ``mardina``가 아니라 ``vinko`` 였다면 어땠을까?
 &nbsp;
@@ -196,9 +197,10 @@ string solution(vector<string> participant, vector<string> completion) {
 
 &nbsp;
 > C++의 map의 [] 연산자는, 해당 key가 없으면
-> 알아서 insert를 해 주므로 위와 같은 코드가 가능하다.
+> 알아서 insert를 해 주므로 위와 같은 코드가 가능하다.  
 > insert를 할 때, value는 해당 타입의 기본 생성자를 호출한다.  
-> 여기서는 value의 타입이 int이므로, __int()__의 결과인 0이 들어간다.
+> 여기서는 value의 타입이 int이므로, __int()__의 결과인  
+> 0이 들어간다.
 
 &nbsp;
 정렬을 써도 통과할 수 있고, 해시를 써도 통과할 수 있다.  
