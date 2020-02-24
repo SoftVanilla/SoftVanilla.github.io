@@ -27,7 +27,9 @@ participant, completion 배열을 통해 정보를 확인할 수 있다.
 	completion  : ["josipa", "filipa", "marina", "nikola"]
 
 &nbsp;
+
 참가자와 완주자의 명단이 불규칙적으로 섞여있다. 이 문자열 배열들을 정렬하면 사전순으로 정렬한 형태가 된다. 보기 편하게 한 번 참가자 명단과 완주자 명단을 정렬해보자.
+
 &nbsp;
 
 	participant : ['filipa', 'josipa', 'marina', 'nikola', 'vinko']
@@ -39,6 +41,7 @@ participant, completion 배열을 통해 정보를 확인할 수 있다.
 맨 끝의 ``vinko``를 제외하면 말이다.
 
 만약 완주자가 ``mardina``가 아니라 ``vinko`` 였다면 어땠을까?
+
 &nbsp;
 
 	participant : ['filipa', 'josipa', 'marina', 'nikola', 'vinko']
@@ -131,14 +134,11 @@ HashMap에 해당 이름을 가진 참가자 명단이
 없으면 이 참가자가 완주하지 못한 사람이다.  
 &nbsp;  
 한 번 실제로 순회해보자.  
-
 &nbsp;
 
 ------------
 
-
 &nbsp;
-
 `` ["marina", "josipa", "nikola", "vinko", "filipa"] ``
 
 &nbsp;
@@ -170,7 +170,6 @@ HashMap에 해당 이름을 가진 참가자 명단이
 &nbsp;
 
 ------------
-
 
 &nbsp;
 그러면 이 내용을 코드로 작성해보자.
