@@ -13,13 +13,15 @@ participant, completion 배열을 통해 정보를 확인할 수 있다.
 ## 제한 사항
 - 명단의 크기 n은 1 <= n <= 100,000 이다.
 - len(completion) = len(participant) - 1
- - 완주자 수는 참가자 수 보다 1명 적다.
+	- 완주자 수는 참가자 수 보다 1명 적다.
 - **동명이인**이 존재할 수 있다.
 
 &nbsp;
 &nbsp;
 ## 1. 정렬을 이용하기 - O(NlogN)
+
 &nbsp;
+
 주어진 예제의 2번 입력을 보면서 생각해보자.
 &nbsp;
 
@@ -99,7 +101,9 @@ string solution(vector<string> participant, vector<string> completion) {
 &nbsp;
 &nbsp;
 ## 2. HashMap 사용하기 - O(kN) - k는 문자열 길이
+
 &nbsp;
+
 이 문제의 카테고리는 해시다. 해시를 써서 풀어보라고 한 만큼, 해시를 써서 풀어보자.  
 **C++**의 **unordered_map**, **Java**의 **HashMap**, **Python**의 **Dictionary**를 사용할 수 있다.  
 HashMap의 Insert(), Find()의 시간복잡도는 **O(1)**이다.
@@ -108,7 +112,7 @@ HashMap의 Insert(), Find()의 시간복잡도는 **O(1)**이다.
 > key의 해시 함수에 따라 O(1) 커질 수도 있다.  
 > 문자열의 경우, 해시 성능은 O(k) (k는 문자열 길이) 이다.  
 > 해시함수의 성능이 나쁘다면 해시마다 충돌이 일어나  
-> **최악의 경우 O(N)**까지 치솟을 수 있다.  
+> 최악의 경우 O(N)까지 치솟을 수 있다.  
 
 완주한 사람의 명단을 HashMap에 집어 넣고,  
 참가자 명단을 통해 찾아나가면  
@@ -198,7 +202,7 @@ string solution(vector<string> participant, vector<string> completion) {
 > C++의 map의 [] 연산자는, 해당 key가 없으면
 > 알아서 insert를 해 주므로 위와 같은 코드가 가능하다.  
 > insert를 할 때, value는 해당 타입의 기본 생성자를 호출한다.  
-> 여기서는 value의 타입이 int이므로, __int()__의 결과인  
+> 여기서는 value의 타입이 int이므로, int()의 결과인  
 > 0이 들어간다.
 
 &nbsp;
