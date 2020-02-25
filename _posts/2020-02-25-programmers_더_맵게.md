@@ -47,7 +47,7 @@ category: Programmers
 
 &nbsp;
 
-####solution_bruteforce.cpp
+#### solution_bruteforce.cpp
 ```cpp
 #include <vector>
 
@@ -204,7 +204,7 @@ n-1개의 음식을 순회한 뒤, 2개의 음식을 섞는다.
 
 &nbsp;
 
-####solution_heap.cpp
+#### solution_heap.cpp
 ```cpp
 #include <vector>
 #include <queue>
