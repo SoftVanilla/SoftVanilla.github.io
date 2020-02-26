@@ -6,7 +6,9 @@ category: Programmers
 ---
 
 [https://programmers.co.kr/learn/courses/30/lessons/42578](https://programmers.co.kr/learn/courses/30/lessons/42578 "https://programmers.co.kr/learn/courses/30/lessons/42578")
+
 &nbsp;
+
 ## 문제 내용
 주어진 스파이의 의상을 보고, 서로 다른 옷의 조합 수를 리턴하자.
 &nbsp;
