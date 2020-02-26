@@ -123,7 +123,7 @@ bool solution(vector<string> phone_book) {
         if (phone_book[i] == phone_book[i+1].substr(0, phone_book[i].size()))
             return false;
     }
-	return true;
+    return true;
 }
 ```
 
@@ -193,7 +193,8 @@ bool solution(vector<string> phone_book) {
 		for (int i = 0; i < str.length()-1; ++i)
 		{
 			substr += str[i];
-			if (st.find(substr) != st.end())    return false;
+			if (st.find(substr) != st.end())
+				return false;
 		}
 		st.insert(str);
 	}
@@ -351,7 +352,7 @@ bool solution(vector<string> phone_book) {
         }
         
         if (isSub)
-			return false;
+		return false;
         current->isEnd = true;
     }
     
