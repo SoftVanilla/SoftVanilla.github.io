@@ -5,7 +5,9 @@ tags: []
 category: Programmers
 ---
 [https://programmers.co.kr/learn/courses/30/lessons/42576](https://programmers.co.kr/learn/courses/30/lessons/42576 "https://programmers.co.kr/learn/courses/30/lessons/42576")
+
 &nbsp;
+
 ## 문제 설명
 마라톤 선수 중 단 한명이 완주를 하지 못했다. 누구인지 찾자.  
 participant, completion 배열을 통해 정보를 확인할 수 있다.
