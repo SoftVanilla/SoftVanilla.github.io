@@ -2,7 +2,6 @@
 title: '프로그래머스 - 등굣길'
 layout: 
 tags: []
-published: false
 category: Programmers
 ---
 [https://programmers.co.kr/learn/courses/30/lessons/42898](https://programmers.co.kr/learn/courses/30/lessons/42898 "https://programmers.co.kr/learn/courses/30/lessons/42898")
