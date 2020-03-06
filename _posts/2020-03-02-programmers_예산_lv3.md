@@ -165,7 +165,7 @@ int solution2(vector<int> budgets, int M) {
 
 &nbsp;
 
-## 2. 이분 탐색 - O(KlogN)
+## 2. 이분 탐색 - O(NlogK)
 
 &nbsp;
 
