@@ -1,6 +1,5 @@
 ---
 title: '프로그래머스 - 타일 장식물'
-layout: post
 tags: []
 category: Programmers
 ---
