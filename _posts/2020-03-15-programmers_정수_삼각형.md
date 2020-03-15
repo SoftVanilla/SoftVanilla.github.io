@@ -119,7 +119,7 @@ int dfs(int x, int y, vector<vector<int>>& triangle, vector<vector<int>>& visite
 
 int solution(vector<vector<int>> triangle) {
 	vector<vector<int>> visited(triangle.size(),
-								vector<int>(triangle.size(), 0));
+	vector<int>(triangle.size(), 0));
 
 	int answer = dfs(0, 0, triangle, visited);
 
