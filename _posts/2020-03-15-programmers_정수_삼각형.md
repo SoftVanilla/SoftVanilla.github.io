@@ -141,7 +141,7 @@ int solution(vector<vector<int>> triangle) {
 위의 코드에 기본 샘플 테스트 케이스를 집어넣으면
 다음과 같이 출력될 것이다.
 
-![visit](/assets/images/programmers/visit.png "visit")
+![visit](/assets/images/programmers/p23/visit.png "visit")
 
 위의 그림에서 출력된 숫자의 의미는 무엇일까?  
 ``triangle[x][y] + max(dfs(x+1,y), dfs(x+1,y+1))``을
