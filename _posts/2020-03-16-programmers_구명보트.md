@@ -1,6 +1,6 @@
 ---
 title: '프로그래머스 - 구명보트'
-layout: 
+layout: null
 tags: []
 category: Programmers
 ---
@@ -145,7 +145,9 @@ left = 0, right = len(people)-1, answer = 0
 그냥 내버려두면 된다. 어자피 루프 안에서 필요한 보트의 수는
 1 증가하게 될 것이기 때문이다.
 
-그러면 
+&nbsp;
+
+그러면 위의 내용을 코드로 표현해보자.
 
 &nbsp;
 
