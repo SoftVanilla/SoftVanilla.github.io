@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Home"
-    url: https://softvanilla.github.io/
-  - title: "Categories"
-    url: /categories/
+  - title: "Programmers"
+    url: /categories/#programmers
+  - title: "Python"
+    url: /categories/#python
