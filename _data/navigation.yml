@@ -4,3 +4,5 @@ main:
     url: /categories/#programmers
   - title: "Python"
     url: /categories/#python
+  - title: "DiscordBot"
+    url: /categories/#discordbot
